@@ -21,11 +21,13 @@ export default function Home() {
           🔐Auth
         </h1>
         <p className="text-white text-lg">A Simple authentication service</p>
-        <LoginButton>
-          <Button variant="secondary" size="lg">
-            Sign in
-          </Button>
-        </LoginButton>
+        <div>
+          <LoginButton>
+            <Button variant="secondary" size="lg">
+              Sign in
+            </Button>
+          </LoginButton>
+        </div>
       </div>
     </main>
   );
